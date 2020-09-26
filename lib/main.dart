@@ -32,21 +32,25 @@ class NinjaCard extends StatelessWidget {
               height: 60,
               color: Colors.grey[800],
             ),
-            Text(
-              'NAME',
-              style: TextStyle(
-                color: Colors.white,
-                letterSpacing: 2,
-              ),
-            ),
-            SizedBox(height: 10),
-            Text(
-              'Samuel Bentil',
-              style: TextStyle(
-                  color: Colors.amberAccent[200],
-                  letterSpacing: 2,
-                  fontSize: 28,
-                  fontWeight: FontWeight.bold),
+            Row(
+              children: <Widget>[
+                Text(
+                  'NAME',
+                  style: TextStyle(
+                    color: Colors.white,
+                    letterSpacing: 2,
+                  ),
+                ),
+                SizedBox(height: 10),
+                Text(
+                  'Samuel Bentil',
+                  style: TextStyle(
+                      color: Colors.amberAccent[200],
+                      letterSpacing: 2,
+                      fontSize: 28,
+                      fontWeight: FontWeight.bold),
+                ),
+              ],
             ),
             SizedBox(height: 30),
             Text(
